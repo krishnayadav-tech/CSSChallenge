@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto",'sans-serif';
+}
+.wrapper{
+    background-color: #23424A;
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text__box{
+    width: 60%;
+    padding: 148px 0;
+}
+
+.text__title{
+    font-weight: 900;
+    font-size : 48.05px;
+    line-height: 105%;
+}
+
+.text__info{
+    margin-top: 20px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.text__btn{
+    padding: 16px 48px;
+    background-color: #38CFD9;
+    border: none;
+    border-radius: 31px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-family: "Roboto",'sans-serif';
+    font-weight: 700;
+    color : #072A2D;
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 1150px) {
+    .text__box{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .text__box{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .text__box{
+        padding: 100px 0;
+    } 
+    .text__btn{
+        padding: 10px 20px;
+        border-radius: 2px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .text__btn{
+        font-size: 16px;
+    }
+}
