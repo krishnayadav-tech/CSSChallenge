@@ -15,14 +15,15 @@ body{
     font-weight: lighter;
 }
 
+img{
+    width: 100%;
+    transform: scale(1.1);
+}
+
 .center{
     text-align: center;
 }
 
-
-img{
-    width: 100%;
-}
 
 .resource{
     padding: 0.8rem 0;
@@ -60,7 +61,7 @@ img{
 
 .main-flex{
     display: flex;
-    gap: 3rem;
+    gap: 5rem;
 }
 
 .main__heading{
@@ -83,6 +84,9 @@ img{
     padding: 10rem;
 }
 
+.main2__img, .main3__img{
+    overflow: hidden;
+}
 
 .main2{
     background-color: #222C2A;
